@@ -1,0 +1,55 @@
+*{
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+    font-family: 'Arial';
+}
+.texto{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgb(228, 30, 30);
+}
+
+.imagens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem1{
+    margin-bottom: 450px;
+}
+
+#imagem1{
+    position: absolute;
+    background-image: url('../img/bob_lombra.jfif');
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+}
+
+#imagem1:hover{
+    background-image: url('../img/bob.gif');
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-size: 400px 400px;
+    width: 400px;
+    height: 340px;
+}
+
+#imagem2{
+    background-image: url('../img/carrocho.jfif');
+    width: 210px;
+    height: 240px;
+    margin-right: 250px;
+}
+
+#imagem2:hover{
+    background-image: url('../img/carrocho_gif.gif');
+    width: 330px;
+    height: 400px;
+    margin-right: 130px;
+}
